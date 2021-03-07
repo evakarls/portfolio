@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '~assets/css/fonts';
+
+
+  h1 {
+    @apply font-extrabold text-white font-spartan ;
+  }
+
+  h2 {
+    @apply font-extrabold text-white font-spartan;
+  }
+
+  h3 {
+    @apply font-extrabold text-white font-spartan;
+  }
+
