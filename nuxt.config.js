@@ -14,9 +14,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
-  googleAnalytics: {
-    id: 'UA-48466884-2'
-  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
