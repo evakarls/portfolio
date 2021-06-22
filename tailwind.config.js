@@ -3,17 +3,24 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: {
+    content: [
+      `components/**/*.{vue,js}`,
+      `layouts/**/*.vue`,
+      `pages/**/*.vue`,
+      `plugins/**/*.{js,ts}`,
+      `nuxt.config.{js,ts}`
+    ]
+  },
   theme: {
     extend: {
-      colors: {
-        'han-purple': '#5E2BFF'
-      },
       fontFamily: {
         spartan: ['Spartan', 'sans-serif']
       }
     }
   },
-  variants: {},
+  variants: {
+    animation: ['motion-safe']
+  },
   plugins: [],
 }

@@ -3,8 +3,6 @@
 @import 'tailwindcss/utilities';
 
 @import '~assets/css/fonts';
-
-
   h1 {
     @apply font-extrabold text-white font-spartan ;
   }
