@@ -10,10 +10,30 @@
     </section>
 
     <ul class="flex text-white text-2xl sm:text-5xl space-x-6">
-      <li><a href="https://github.com/evakarls"><fa class="transform hover:rotate-6 cursor-pointer" :icon="['fab', 'github']"/></a></li>
-      <li><a href="https://codepen.com/evakarls"><fa class="transform hover:rotate-6 cursor-pointer" :icon="['fab', 'codepen']"/></a></li>
-      <li><a href="https://www.linkedin.com/in/evakarlsdottir/"><fa class="transform hover:rotate-6 cursor-pointer" :icon="['fab', 'linkedin-in']"/></a></li>
-      <li><a href="mailto:eva@evakarls.com"><fa class="transform hover:rotate-6 cursor-pointer" :icon="['far', 'envelope']"/></a></li>
+      <li>
+        <a href="https://github.com/evakarls">
+          <fa class="transform hover:rotate-6 cursor-pointer" aria-hidden="true" :icon="['fab', 'github']"/>
+          <span class="sr-only">Github</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://codepen.com/evakarls">
+          <fa class="transform hover:rotate-6 cursor-pointer" aria-hidden="true" :icon="['fab', 'codepen']"/>
+          <span class="sr-only">Codepen</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/evakarlsdottir/">
+          <fa class="transform hover:rotate-6 cursor-pointer" aria-hidden="true" :icon="['fab', 'linkedin-in']"/>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:eva@evakarls.com">
+          <fa class="transform hover:rotate-6 cursor-pointer" aria-hidden="true" :icon="['far', 'envelope']"/>
+          <span class="sr-only">Email</span>
+        </a>
+      </li>
     </ul>
   </main>
 </template>
